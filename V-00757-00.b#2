@@ -833,7 +833,7 @@ Určeno pro kreslení a export výrobních dat</description>
 <element name="R2" library="#PaJa_31" package="1206" value="10R" x="20.7" y="3.3" rot="MR90"/>
 <element name="R3" library="#PaJa_31" package="1206" value="10k" x="20.7" y="11.3" rot="MR270"/>
 <element name="C2" library="#PaJa_31" package="1206" value="10uF" x="39.5" y="1.7" rot="MR0"/>
-<element name="Q1" library="#PaJa_31" package="HC-49U" value="14.7456MHz" x="31.9" y="20.4" rot="MR0"/>
+<element name="Q1" library="#PaJa_31" package="HC-49U" value="14.7456MHz" x="31.9" y="20.2" rot="R180"/>
 <element name="C3" library="#PaJa_31" package="0805" value="27nF" x="29.4" y="23.3" rot="MR270"/>
 <element name="C4" library="#PaJa_31" package="0805" value="27nF" x="34.4" y="23.3" rot="MR270"/>
 <element name="CAN1" library="#PaJa_konektory" package="CAN9V/90" value="CAN_9V_/90" x="29.4" y="27.1"/>
@@ -1054,18 +1054,18 @@ Určeno pro kreslení a export výrobních dat</description>
 <contactref element="IC1" pad="7"/>
 <contactref element="C3" pad="2"/>
 <contactref element="Q1" pad="2"/>
-<wire x1="31.5" y1="16.7926" x2="31.5" y2="18.26" width="0.4064" layer="16"/>
-<wire x1="31.5" y1="18.26" x2="29.36" y2="20.4" width="0.4064" layer="16"/>
-<wire x1="29.36" y1="20.4" x2="29.36" y2="22.3075" width="0.4064" layer="16"/>
+<wire x1="31.5" y1="16.7926" x2="31.5" y2="18.06" width="0.4064" layer="16"/>
+<wire x1="31.5" y1="18.06" x2="29.36" y2="20.2" width="0.4064" layer="16"/>
+<wire x1="29.36" y1="20.2" x2="29.36" y2="22.3075" width="0.4064" layer="16"/>
 <wire x1="29.36" y1="22.3075" x2="29.4" y2="22.3475" width="0.4064" layer="16"/>
 </signal>
 <signal name="XTAL2">
 <contactref element="IC1" pad="8"/>
 <contactref element="Q1" pad="1"/>
 <contactref element="C4" pad="2"/>
-<wire x1="32.3" y1="16.7926" x2="32.3" y2="18.26" width="0.4064" layer="16"/>
-<wire x1="32.3" y1="18.26" x2="34.44" y2="20.4" width="0.4064" layer="16"/>
-<wire x1="34.44" y1="20.4" x2="34.44" y2="22.3075" width="0.4064" layer="16"/>
+<wire x1="32.3" y1="16.7926" x2="32.3" y2="18.06" width="0.4064" layer="16"/>
+<wire x1="32.3" y1="18.06" x2="34.44" y2="20.2" width="0.4064" layer="16"/>
+<wire x1="34.44" y1="20.2" x2="34.44" y2="22.3075" width="0.4064" layer="16"/>
 <wire x1="34.44" y1="22.3075" x2="34.4" y2="22.3475" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$7">
@@ -1077,7 +1077,7 @@ Určeno pro kreslení a export výrobních dat</description>
 <signal name="N$13">
 <contactref element="CAN1" pad="9"/>
 </signal>
-<signal name="+24V_IN">
+<signal name="+24V_OUT">
 <contactref element="D1" pad="A"/>
 <contactref element="CAN1" pad="1"/>
 <wire x1="34.9563" y1="27.1" x2="34.9563" y2="27.9563" width="0.4064" layer="16"/>
