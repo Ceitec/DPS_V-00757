@@ -2238,6 +2238,17 @@ RS485 -&gt; 5TTL</text>
 2. Kolektor
 3. Katoda
 4. Anoda</text>
+<text x="203.2" y="119.38" size="1.778" layer="97" align="top-left">Není dle standardů!!!
+Dle standardu je
+1. Nevyuzit
+2. RXD+
+3. Data+ (B)
+4. Nevyuzit
+5. GND
+6. RXD-
+7. Nevyuzit
+8. Nevyuzit
+9. Data- (A)</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -2579,7 +2590,7 @@ RS485 -&gt; 5TTL</text>
 <label x="226.06" y="55.88" size="1.016" layer="95" font="vector" ratio="10" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="+24V_OUT" class="0">
+<net name="+24V_IN" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="121.92" y1="167.64" x2="116.84" y2="167.64" width="0.1524" layer="91"/>

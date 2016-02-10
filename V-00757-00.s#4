@@ -2339,7 +2339,7 @@ paja@paja-trb.cz
 <part name="U$1" library="#PaJa_konektory" deviceset="AVR_PROG_SPI" device=""/>
 <part name="U$2" library="LIC_ALL-00" deviceset="SM04B-SRSS-TB" device="-SIDE-TYPE"/>
 <part name="K1" library="#PaJa_konektory" deviceset="PSH02-04" device="W"/>
-<part name="R4" library="#PaJa_31" deviceset="R" device="_1206" value="10k"/>
+<part name="R4" library="#PaJa_31" deviceset="R" device="_1206" value="100R"/>
 <part name="R5" library="#PaJa_31" deviceset="R" device="_1206" value="1k"/>
 </parts>
 <sheets>
@@ -2807,7 +2807,7 @@ RS485 -&gt; 5TTL</text>
 <wire x1="119.38" y1="137.16" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="137.16" x2="124.46" y2="137.16" width="0.1524" layer="91"/>
 <junction x="119.38" y="137.16"/>
-<label x="124.46" y="137.16" size="1.27" layer="95" ratio="10" xref="yes"/>
+<label x="124.46" y="137.16" size="1.016" layer="95" ratio="10" xref="yes"/>
 </segment>
 </net>
 <net name="EMITOR" class="0">
